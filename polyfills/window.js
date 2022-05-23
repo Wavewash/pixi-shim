@@ -1,7 +1,7 @@
 "use strict";
 
 if (!global.window) {
-  console.log("pixi-shim ❤️ DOM");
+  //console.log("pixi-shim ❤️ DOM");
 
   if (typeof window === "undefined") {
     require("jsdom-global")();
@@ -23,7 +23,7 @@ if (!global.window) {
       (typeof process !== "undefined" && process.env.WINDOW_HEIGHT) || 600;
   }
 
-  console.log(`pixi-shim ❤️ Window ${window.innerWidth}x${window.innerHeight}`);
+  //console.log(`pixi-shim ❤️ Window ${window.innerWidth}x${window.innerHeight}`);
 
   global.window = window;
 }
