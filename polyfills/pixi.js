@@ -2,7 +2,7 @@
 
 const DummyContext = require("../dummy");
 
-console.log("pixi-shim ❤️ PIXI.js");
+//console.log("pixi-shim ❤️ PIXI.js");
 
 class Point {
   constructor(x = 0, y = 0) {
